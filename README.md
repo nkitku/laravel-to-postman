@@ -7,7 +7,7 @@ Create Importable Json File for PostMan from laravel routes
 
 ###### For Mac OSX
 
-``	node -e "$(curl 'https://raw.githubusercontent.com/nkitku/laravel-to-postman/master/main.min.js')" nkitku "$(php artisan route:list)" http://projectUrlDomain.com projectName api > project.postman_collection.json;``
+``	node -e "$(curl 'https://raw.githubusercontent.com/nkitku/laravel-to-postman/master/main.min.js')" nkitku "$(php artisan route:list)" http://projectUrlDomain.com projectName api > project.postman_collection.json``
 
 
     http://projectUrlDomain.com -> will be your api url like http://localhost/myproject/
