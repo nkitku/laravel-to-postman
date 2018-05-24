@@ -5,7 +5,7 @@ Create Importable Json File for PostMan from laravel routes
 
 ##### Run Command In Your Laravel Project Folder
 
-###### For Mac OSX
+###### For Unix  (For Windows Use Bash)
 
 ``	node -e "$(curl -k --compressed 'https://raw.githubusercontent.com/nkitku/laravel-to-postman/master/main.min.js')" nkitku "$(php artisan route:list)" http://projectUrlDomain.com projectName api > project.postman_collection.json``
 
@@ -17,3 +17,4 @@ Create Importable Json File for PostMan from laravel routes
          you can also change this later in postman : YourCollection > Right Click > Rename 
 
     api -> will be your api prefix, default empty
+
