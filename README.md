@@ -1,3 +1,8 @@
+# laravel-to-postman
+Create Importable Json File for PostMan from laravel routes
+
+
+
 ##### Run Command In Your Laravel Project Folder
 
 ###### For Mac OSX
